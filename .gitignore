@@ -1,1 +1,55 @@
+
+# Project-specific
 invicti.json
+
+# Node
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+src/**/bin/
+src/**/obj/
+publish/
+artifacts/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/packages/
+
+# dotnet
+project.lock.json
+project.fragment.lock.json
+dotnet-tools.json
+dotnet-tools.target
+
+# Logs and reports
+*.log
+logs/
+coverage/
+coverage*.json
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml

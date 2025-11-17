@@ -1,4 +1,5 @@
 using System.Text.Json.Serialization;
+using InvictiScanner.Configuration;
 
 namespace InvictiScanner.Models;
 
